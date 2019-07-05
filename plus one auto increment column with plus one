@@ -1,0 +1,4 @@
+SET @i = 11;
+update user
+set `random_id`  = @i:=@i + 1
+where `id` > 23
